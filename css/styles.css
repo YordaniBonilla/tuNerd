@@ -24,7 +24,7 @@ Visibilidad = si
  --blue-color: hsl(181, 94%, 39%);
 }
 body {
-    background-image: url('../css/image.jpeg');
+    background-image: url('../Images/image.jpeg');
     background-size: contain;
 }
 

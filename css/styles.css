@@ -25,21 +25,17 @@ Visibilidad = si
 }
 body {
     background-image: url('../Images/image.jpeg');
-    background-size: contain;
+    background-size: cover;
 }
 
 .container {
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
+  display:flex;
+  flex-wrap:wrap;
 }
 
 .box {
-  box-shadow: 4px 4px 5px var(--bluegreen-color);
   text-align: center;
   background-color: var(--black-color);
-  margin:10px;
-  opacity:0.7;
 }
 
 h2,h1 {
@@ -51,14 +47,19 @@ h2,h1 {
   border-top:2px solid var(--blue-color);
 }
 
-header:hover,h1:hover {
-  visibility: hidden;
-}
-
 footer {
   color: white;
 }
 footer {
   clear: both;
   font-size:100px;
+}
+
+.carousel {
+  width:50%;
+}
+
+.carousel-item img {
+  max-width: 650px;
+  max-height:650px;
 }

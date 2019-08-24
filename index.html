@@ -9,10 +9,11 @@
     <meta name="keywords" content="Information about planets and characteristics">
     <title>Los Planetas</title>
     <link rel="stylesheet" type="text/css"href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
+    <!--Begin Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
         <img src="Images/letter-p.png" width="50" height="50" alt="">
@@ -52,50 +53,93 @@
             </form>
         </div>
     </nav>
+    <!--End Navbar-->
+
     <div class="line"></div>
-    <div class="container">
-    <div class="box">
-    <h2>Mercury</h2>
-    <img 
-      src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Mercury_in_color_-_Prockter07-edit1.jpg" width="200px"
-      height="200px">
+
+    <!--Begin Carousel-->
+    <div id="PlanetCarousel" class="carousel" data-ride="carousel"data-keyboard="true">
+        <ol class="carousel-indicators">
+            <li data-target="#MagicCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#MagicCarousel" data-slide-to="1" ></li>
+            <li data-target="#MagicCarousel" data-slide-to="2" ></li>
+            <li data-target="#MagicCarousel" data-slide-to="3" ></li>
+            <li data-target="#MagicCarousel" data-slide-to="4" ></li>
+            <li data-target="#MagicCarousel" data-slide-to="5" ></li>
+            <li data-target="#MagicCarousel" data-slide-to="6" ></li>
+            <li data-target="#MagicCarousel" data-slide-to="7" ></li>
+
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active" data-interval="10000">
+                    <img src="Images/Mercury.jpg" 
+                    class="d-block w-100" alt="Plant Mercury">
+                    <div class="carousel-caption">
+                        <h3>Mercury</h3>
+                    </div>
+            </div>
+            <div class="carousel-item" data-interval="10000">
+                    <img src="Images/Venus.jpg"
+                    class="d-block w-100" alt="...">
+            "       <div class="carousel-caption">
+                        <h3>Venus</h3>
+                    </div>
+            </div>
+            <div class="carousel-item" data-interval="10000">
+                    <h2>Earth</h2>
+                    <img src="Images/Earth.jpg" 
+                    class="d-block w-100" alt="...x">
+                    <div class="carousel-caption">
+                        <h3>Earth</h3>
+                    </div>
+                </div>
+            <div class="carousel-item" data-interval="10000">
+                    <img src="Images/Mars.jpg" 
+                    class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h3>Mars</h3>
+                    </div>
+            </div>
+            <div class="carousel-item" data-interval="10000">
+                    <img src="Images/Jupiter.jpg"
+                        class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h3>Jupiter</h3>
+                        </div>
+            </div>
+            <div class="carousel-item" data-interval="10000">
+                    <img src="Images/Saturn.jpg" 
+                    class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h3>Saturn</h3>
+                    </div>
+            </div>
+            <div class="carousel-item" data-interval="10000">
+                    <img src="Images/Uranus.jpg" 
+                    class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h3>Uranus</h3>
+                    </div>
+            </div>
+            <div class="carousel-item" data-interval="10000">
+                    <img src="Images/Neptune.jpeg"
+                        class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h3>Neptune</h3>
+                        </div>
+            </div>
+            
+    
+        <a class="carousel-control-prev" href="#PlanetCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#PlanetCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
-    <div class="box">
-        <h2>Venus</h2>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Venus-real_color.jpg/220px-Venus-real_color.jpg" width="200px"
-            height="200px">
-    </div>
-    <div class="box">
-        <h2>Earth</h2>
-        <img src="https://cdn.arstechnica.net/wp-content/uploads/2019/05/c-1024.jpg" width="200px"
-            height="200px">
-    </div>
-    <div class="box">
-        <h2>Mars</h2>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg" width="200px"
-            height="200px">
-    </div>
-    <div class="box">
-        <h2>Jupiter</h2>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg/220px-Jupiter_and_its_shrunken_Great_Red_Spot.jpg" width="200px"
-            height="200px">
-    </div>
-    <div class="box">
-        <h2>Saturn</h2>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Saturn_during_Equinox.jpg" width="200px"
-            height="200px">
-    </div>
-    <div class="box">
-        <h2>Uranus</h2>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Uranus2.jpg/255px-Uranus2.jpg" width="200px"
-            height="200px">
-    </div>
-    <div class="box">
-        <h2>Neptune</h2>
-        <img src="data:image/jpeg;base64,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" width="200px"
-            height="200px">
-    </div>
-    </div>
+    <!--End Carousel-->
     <footer><a href='https://www.nasa.gov'>Portal a Nasa</a></footer>
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script type="text/javascript"  src="node_modules/bootstrap/dist/js/bootstrap.js"></script>

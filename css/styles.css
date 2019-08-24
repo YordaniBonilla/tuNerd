@@ -1,0 +1,91 @@
+/* Due jueves a las 9 mas tardar
+Medidas relativas
+Medidas absolutas
+Medidas Porcentuales
+Colores con palabras reservadas
+Colores con RGBdecimal 
+Colores con RGB hexadecimal
+Colores con RGB Porcentual
+Colores con HSL = si
+Colores con transparencia = si
+Modelo de caja = si
+Tamano de un elemento HTML = si
+Margin y Padding = si
+Display = si
+Position Static, Relative, Absolute y Fixed = si
+Float y Clear = si
+Visibilidad = si
+*/
+
+:root {
+ --white-color : #ffffff;
+ --bluegreen-color:#007E84;
+ --black-color: #000000;
+ --blue-color: hsl(181, 94%, 39%);
+}
+body {
+    background-image: url('../css/image.jpeg');
+    background-size: contain;
+}
+
+.container {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-bottom:20px;
+}
+
+.box {
+  box-shadow: 4px 4px 5px var(--bluegreen-color);
+  width:300px;
+  text-align: center;
+  background-color: var(--black-color);
+  margin:10px;
+  padding:10px;
+  opacity:0.7;
+}
+
+h2,h1 {
+  color: var(--white-color);    
+}
+
+header {
+    display:flex;
+    justify-content: center;
+}
+.theme {
+    box-shadow: 4px 4px 5px var(--bluegreen-color);
+}
+
+.line {
+  width: 100%;
+  border-top:1px solid var(--blue-color);
+  position:fixed;
+}
+
+header:hover,h1:hover {
+  visibility: hidden;
+}
+
+.float {
+  float:right;
+  transition: transform 1s .1s;
+}
+
+footer {
+  color: white;
+}
+footer {
+  clear: both;
+  font-size:100px;
+}
+
+.float:hover {
+  transform: translateX(-1500px);
+}
+
+.gato {
+  position: absolute;
+  right: 50%;
+  top:800px;
+}

@@ -33,10 +33,6 @@ body {
   flex-wrap:wrap;
 }
 
-.box {
-  text-align: center;
-  background-color: var(--black-color);
-}
 
 h2,h1 {
   color: var(--white-color);    
@@ -53,13 +49,18 @@ footer {
 footer {
   clear: both;
   font-size:100px;
+  position:fixed;
 }
 
 .carousel {
-  width:50%;
+  height:300px;
+  width:300px;
+  margin-top:10px;
 }
 
-.carousel-item img {
-  max-width: 650px;
-  max-height:650px;
+.carousel-item {
+width:100%;
+height:100%;
+overflow: hidden;
+
 }

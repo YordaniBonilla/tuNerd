@@ -64,3 +64,10 @@ height:100%;
 overflow: hidden;
 
 }
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+

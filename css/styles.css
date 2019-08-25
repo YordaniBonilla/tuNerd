@@ -47,14 +47,15 @@ footer {
   color: white;
 }
 footer {
+  display:flex;
   clear: both;
-  font-size:100px;
+  font-size:50px;
   position:fixed;
 }
 
 .carousel {
-  height:300px;
-  width:300px;
+  height:400px;
+  width:400px;
   margin-top:10px;
 }
 
@@ -71,3 +72,8 @@ overflow: hidden;
   border-radius: 100%;
 }
 
+h4 {
+  display:flex;
+  color: white;
+  justify-content:center;;
+}

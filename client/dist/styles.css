@@ -24,7 +24,7 @@ Visibilidad = si
  --blue-color: hsl(181, 94%, 39%);
 }
 body {
-    background-image: url('../Images/image.jpeg');
+    background-image: url('Images/image.jpeg');
     background-size: cover;
 }
 
@@ -35,7 +35,7 @@ body {
 
 
 h2,h1 {
-  color: var(--white-color);    
+  color: var(--blue-color);    
 }
 
 .line {
@@ -43,14 +43,20 @@ h2,h1 {
   border-top:2px solid var(--blue-color);
 }
 
-footer {
-  color: white;
+.ul {
+  list-style-type: none;
+  text-align:center; 
+
 }
+
+.ul li {
+  display: inline-block;
+  padding-left:20px;
+  padding-right:20px;
+}
+
 footer {
-  display:flex;
-  clear: both;
-  font-size:50px;
-  position:fixed;
+float:left;
 }
 
 .carousel {

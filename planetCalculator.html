@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Learn about planets">
+    <meta name="description" content="Planets">
+    <meta name="keywords" content="Information about planets and characteristics">
+    <title>Weight Calculator</title>
+    <link rel="stylesheet" type="text/css"href="css/normalize.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="css/calculator.css">
+</head>
+<body>
+    <!--Begin Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+        <img src="Images/letter-p.png" width="50" height="50" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Planet Calculator</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Galaxys
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Milky Way</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!--End Navbar-->
+
+    <div class="line"></div>
+
+    <!--Container for Question Componet-->
+    <div class="center">
+        <h1>Calcula tu peso en otros Planetas!</h1>
+        <div class="img">
+            <img src="Images/aa09a8b3f20c2869258652b18dfc0daf.jpg" alt="">
+        </div>
+        <div class="result_container">
+        <h1 name="respuesta" id="respuesta" class="result">0</h1>
+        </div>
+        <label for="planet">Ingresa El Planeta</label>
+        <br>
+        <input type="text" name="planet" id="planet" placeholder="Mars/Martes">
+        <br>
+        <label for="weight">Ingresa Tu Peso</label>
+        <br>
+        <input type="text" name="weight" id="weight" placeholder="lbs">
+        <br>
+        <button type="button"
+            onclick="pesoEnOtroPlaneta(document.getElementById('planet').value,document.getElementById('weight').value)">Show
+            Weight</button>
+        <button type="button" onclick="resetter()">Reset</button>
+    </div>
+    
+    <footer>
+        <ul class="ul">
+          <li><a href='https://www.nasa.gov'><h2>Nasa</h2></a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Planet"><h2>wikipedia</h2></a></li>
+        </ul>
+    </footer>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="jquery/math.js"></script>
+    <script type="text/javascript"  src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="jquery/jquery.js"></script>
+</body>
+</html>

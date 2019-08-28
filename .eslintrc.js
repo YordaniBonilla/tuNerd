@@ -8,7 +8,7 @@ module.exports = {
     plugins: ['react', 'prettier'],
     settings: {
         react: {
-            version: '^16.4.2',
+            version: 'detect',
         },
     },
     env: {
@@ -44,6 +44,7 @@ module.exports = {
                 extensions: ['.js', '.jsx'],
             },
         ],
+        "react/jsx-fragments": [<enabled/>, <mode/>],
         radix: 0,
         'no-shadow': [
             2,

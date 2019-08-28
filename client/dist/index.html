@@ -9,146 +9,14 @@
     <meta name="keywords" content="Information about planets and characteristics">
     <title>Los Planetas</title>
     <link rel="stylesheet" type="text/css"href="normalize.css">
-    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    
-     <!-- Begin Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-        <img src="tuNerd/client/src/Images/letter-p.png" width="50" height="50" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/planetCalculator.html">Planet Calculator</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Galaxys
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Milky Way</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-    </nav>
-    <!-- End Navbar -->
-
-    <div class="line"></div>
-
-    <!-- Begin Carousel -->
-    <h4>Click Planet Image for brief details</h4>
-    <div class="d-flex p-2 bd-highlight container justify-content-center">
-       
-        <div id="PlanetCarousel" class="carousel style" data-ride="carousel" data-keyboard="true">
-            <ol class="carousel-indicators">
-                <li data-target="#PlanetCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#PlanetCarousel" data-slide-to="1" ></li>
-                <li data-target="#PlanetCarousel" data-slide-to="2" ></li>
-                <li data-target="#PlanetCarousel" data-slide-to="3" ></li>
-                <li data-target="#PlanetCarousel" data-slide-to="4" ></li>
-                <li data-target="#PlanetCarousel" data-slide-to="5" ></li>
-                <li data-target="#PlanetCarousel" data-slide-to="6" ></li>
-                <li data-target="#PlanetCarousel" data-slide-to="7" ></li>
-
-            </ol>
-            <div class="carousel-inner" role="listbox">
-                <div id="planet1" class="carousel-item active" data-interval="10000">
-                        <img src="Images/Mercury.jpg" 
-                        class="d-block w-100 h-100" alt="Plant Mercury">
-                        <div class="carousel-caption">
-                            <h3>Mercury</h3>
-                        </div>
-                </div>
-                <div id="planet2" class="carousel-item" data-interval="10000">
-                        <img src="Images/Venus.jpg"
-                        class="d-block w-100 h-100" alt="...">
-                        <div class="carousel-caption">
-                            <h3>Venus</h3>
-                        </div>
-                </div>
-                <div id="planet3" class="carousel-item" data-interval="10000">
-                        <img src="Images/Earth.jpg" 
-                        class="d-block w-100 h-100" alt="...x">
-                        <div class="carousel-caption">
-                            <h3>Earth</h3>
-                        </div>
-                    </div>
-                <div id="planet4" class="carousel-item" data-interval="10000">
-                        <img src="Images/Mars.jpg" 
-                        class="d-block w-100 h-100" alt="...">
-                        <div class="carousel-caption">
-                            <h3>Mars</h3>
-                        </div>
-                </div>
-                <div id="planet5" class="carousel-item" data-interval="10000">
-                        <img src="Images/Jupiter.jpg"
-                            class="d-block w-100 h-100" alt="...">
-                            <div class="carousel-caption">
-                                <h3>Jupiter</h3>
-                            </div>
-                </div>
-                <div id="planet6" class="carousel-item" data-interval="10000">
-                        <img src="Images/Saturn.jpg" 
-                        class="d-block w-100 h-100" alt="...">
-                        <div class="carousel-caption">
-                            <h3>Saturn</h3>
-                        </div>
-                </div>
-                <div id="planet7" class="carousel-item" data-interval="10000">
-                        <img src="Images/Uranus.jpg" 
-                        class="d-block w-100 h-100" alt="...">
-                        <div class="carousel-caption">
-                            <h3>Uranus</h3>
-                        </div>
-                </div>
-                <div id="planet8" class="carousel-item" data-interval="10000">
-                        <img src="Images/Neptune.jpeg"
-                            class="d-block w-100 h-100" alt="...">
-                            <div class="carousel-caption">
-                                <h3>Neptune</h3>
-                            </div>
-                </div>
-            
-
-            <a class="carousel-control-prev" href="#PlanetCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#PlanetCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-            </div>
-        </div>
-    </div>
-    <!-- End Carousel -->
-    
     <div id="app"></div>
 
-    <!-- Modal 1 Start  -->
+    <div class="line"></div>
 
     <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
         aria-hidden="true">
@@ -333,15 +201,24 @@
     </div>
 
     <!-- Modal End -->
+
+    
     <footer> 
         <ul class="ul">
           <li><a href='https://www.nasa.gov'><h2>Nasa</h2></a></li>
           <li><a href="https://en.wikipedia.org/wiki/Planet"><h2>wikipedia</h2></a></li>
         </ul>
     </footer> 
-    <script src="jquery.js"></script>
-    <script type="text/javascript"  src="bootstrap.js"></script>
-    <script src="jquery/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./jquery/jquery.js"></script>
     <script type="text/javascript" src="bundle.js"></script>
 <script type="text/javascript" src="bundle.js"></script></body>
 </html>

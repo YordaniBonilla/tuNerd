@@ -23,13 +23,14 @@ Visibilidad = si
  --black-color: #000000;
  --blue-color: hsl(181, 94%, 39%);
 }
-body {
-    /* background-image: url('Images/image.jpeg'); */
-    background-size: cover;
+
+
+.containter {
+  display:flex;
+  justify-content: center;
 }
 
-
-.container {
+.carousel-container {
   display:flex;
   flex-wrap:wrap;
   justify-content:center;
@@ -82,6 +83,34 @@ overflow: hidden;
 
 h4 {
   display:flex;
-  color: white;
+  color: black;
   justify-content:center;;
+}
+
+.table {
+  width: 400px;
+}
+
+.alignT {
+  display:flex;
+  justify-content:center;
+
+}
+
+.backImage {
+  background-image: url('Images/image.jpeg');
+  background-size: cover;
+}
+
+.tableImage {
+  background-color: black;
+}
+
+.moons {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.image {
+  margin: 10px;
 }

@@ -34,7 +34,9 @@ Visibilidad = si
   display:flex;
   flex-wrap:wrap;
   justify-content:center;
+  
 }
+
 
 
 h2,h1 {
@@ -63,9 +65,10 @@ float:left;
 }
 
 .carousel {
-  height:400px;
-  width:400px;
-  margin-top:10px;
+  height: 500px;
+  width: 500px;
+  margin-top:70px;
+  margin-bottom:70px;
 }
 
 .carousel-item {
@@ -83,23 +86,25 @@ overflow: hidden;
 
 h4 {
   display:flex;
-  color: black;
-  justify-content:center;;
+  color: white;
+  justify-content:center;
+
 }
 
 .table {
-  width: 400px;
+  width: 600px;
+ 
 }
 
 .alignT {
   display:flex;
   justify-content:center;
-
+  background-image: url('Images/image.jpeg');
+  background-size: cover;
 }
 
 .backImage {
-  background-image: url('Images/image.jpeg');
-  background-size: cover;
+  background-color:black;
 }
 
 .tableImage {
@@ -113,4 +118,20 @@ h4 {
 
 .image {
   margin: 10px;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+  background-image: url('Images/image.jpeg');
+  background-size: cover;
+}
+
+.lead {
+  color: var(--white-color);
+}
+footer {
+  background-color:black;
+}
+html {
+   background-color:black;
 }

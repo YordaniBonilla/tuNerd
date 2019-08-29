@@ -100,7 +100,6 @@ h4 {
   display:flex;
   justify-content:center;
   background-image: url('Images/image.jpeg');
-  background-size: cover;
 }
 
 .backImage {
@@ -119,7 +118,9 @@ h4 {
 .image {
   margin: 10px;
 }
-
+.btn {
+  padding:8px;
+}
 .jumbotron {
   margin-bottom: 0px;
   background-image: url('Images/image.jpeg');

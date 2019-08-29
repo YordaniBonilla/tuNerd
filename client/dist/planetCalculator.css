@@ -5,3 +5,11 @@
 .img {
     background-color:cadetblue;
 }
+
+#space {
+    transition: all 3s;
+}
+
+#space:hover {
+    transform: scale(.5);
+}

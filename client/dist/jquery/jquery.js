@@ -29,3 +29,7 @@ $("#planet7").click(function (e) {
 $("#planet8").click(function (e) {
     $("#modal8").modal('show');
 });
+
+$(document).ready(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+})

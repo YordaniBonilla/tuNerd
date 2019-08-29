@@ -17,15 +17,16 @@ function NavBar () {
                         <li class="nav-item active">
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/planetCalculator.html">Planet Weight</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link" href="moons.html">Moons</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Milky Way</a>
-                        </li>
+                    <div class="dropdown">
+                        <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown">
+                            Explore
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="/planetCalculator.html">Planet Weight</a>
+                            <a class="dropdown-item" href="moons.html">Moons</a>
+                            <a class="dropdown-item" href="#">Dwarfs</a>
+                        </div>
+                    </div>
                     </ul>
                    
         </div>

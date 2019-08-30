@@ -93,6 +93,7 @@ h4 {
 
 .table {
   width: 600px;
+  color: white;
  
 }
 
@@ -135,4 +136,8 @@ footer {
 }
 html {
    background-color:black;
+}
+
+.sub {
+color: black;
 }

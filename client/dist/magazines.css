@@ -1,0 +1,40 @@
+:root {
+ --white-color : #fff;
+ --bluegreen-color:#007E84;
+ --black-color: #000000;
+ --blue-color: hsl(181, 94%, 39%);
+}
+
+
+.btn-fb {
+	color: var(--white-color);
+	background-color: #4C67A1;
+}
+.btn-fb:hover {
+	color: var(--white-color);
+	background-color: #405D9B;
+}
+.btn-fb:focus {
+	color: var(--white-color);
+}
+
+
+.magazine {
+    padding: 3px;
+}
+
+footer {
+  background-color:black;
+}
+
+.ul {
+  list-style-type: none;
+  text-align:center; 
+
+}
+
+.ul li {
+  display: inline-block;
+  padding-left:20px;
+  padding-right:20px;
+}

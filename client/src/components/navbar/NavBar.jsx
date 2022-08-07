@@ -23,7 +23,7 @@ function NavBar () {
                             Explore
                         </button>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="/planetCalculator.html">Planet Weight</a>
+                            <a class="dropdown-item" href="planetCalculator.html">Planet Weight</a>
                             <a class="dropdown-item" href="moons.html">Moons</a>
                             <a class="dropdown-item" href="magazines.html">Magazines</a>
                         </div>

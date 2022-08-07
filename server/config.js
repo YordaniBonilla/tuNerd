@@ -8,7 +8,7 @@ const path = require('path');
 app.use(compression());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static('/home/byordani93/JCEF/tuNerd/client/dist'));
+app.use(express.static('/home/pebbles/completeNodeCourse/tuNerd/client/dist'));
 
 // http request
 

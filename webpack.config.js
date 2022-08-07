@@ -32,4 +32,8 @@ module.exports = {
       filename: './index.html',
     }),
   ],
+  devServer: {
+    contentBase: './client/dist',
+    // no publicPath
+  }
 };
